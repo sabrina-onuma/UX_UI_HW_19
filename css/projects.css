@@ -1,0 +1,57 @@
+.workGrid{
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    "title title"
+    "image information"
+    "image information"
+    "button button";
+    row-gap: 10%;
+}
+
+.myWork{
+    
+    width: 75%;
+    float: right;
+}
+#projTitle{
+    grid-column: 1/3;
+}
+#viewButtom{
+    grid-column: 1;
+}
+.workGrid>.projImg>img{
+    width: 200px;
+}
+.workGrid>.projImg{ 
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media only screen and (max-width: 600) {
+
+    .myWork{
+        width:100%;
+    }
+    .workGrid{
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        row-gap: 10px;
+        grid-template-areas:
+        "title"
+        "image" 
+        "information"
+        "image" 
+        "information"
+        "button";
+
+    }
+    #projTitle{
+        grid-column: 1;
+    }
+    
+}
+
