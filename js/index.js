@@ -1,1 +1,7 @@
-console.log("your index is loaded.");
+$(document).ready(function(){
+    $("#navItem").hover(function(){
+      $(this).css("color", "#B15318");
+      }, function(){
+      $(this).css("color", "#1c1c1c");
+    });
+  });
