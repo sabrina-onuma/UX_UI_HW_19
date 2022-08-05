@@ -22,11 +22,18 @@
 }
 #viewButtom{
     grid-column: 1;
+    
 }
 .workGrid>.projImg>img{
     width: 200px;
 }
 .workGrid>.projImg{ 
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.workGrid>#buttonProj{ 
     
     display: flex;
     align-items: center;
