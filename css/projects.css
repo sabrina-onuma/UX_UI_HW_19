@@ -52,12 +52,12 @@
 #viewButton:hover {
     background-color: white;
     border: 4px solid #B15318;
-    color: #1c1c1c;
+    color: #B15318;
 }
 .caseButton:hover{
     background-color: white;
     border: 4px solid #B15318;
-    color: #1c1c1c;
+    color: #B15318;
 }
 .workGrid>#buttonProj{ 
     display: flex;
