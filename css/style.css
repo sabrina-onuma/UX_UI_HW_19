@@ -46,6 +46,8 @@ li {
 }
 
 .heroImg {
+    margin-top: 33%;
+    margin-bottom: 33%;
     float:right;
     width: 75%;
 }
