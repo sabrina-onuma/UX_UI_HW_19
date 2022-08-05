@@ -1,4 +1,4 @@
-$("li").click(function(){
-    $(this).hide();
+$("li").hover(function(){
+    $(this).css("color","#B15318");
 
 })
