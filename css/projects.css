@@ -1,7 +1,7 @@
 .workGrid{
     height: auto;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-areas: 
@@ -38,6 +38,7 @@
         width:100%;
     }
     .workGrid{
+        display:grid;
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
         row-gap: 10px;
         grid-template-areas:

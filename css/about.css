@@ -20,11 +20,6 @@ div.flexContainer{
 #cogIcon{
     height: 128px;
 }
-@media screen and (max-width: 600px) {
 
-    .flexContainer > div{
-        width: 100%;
-    }
-}
 
 
