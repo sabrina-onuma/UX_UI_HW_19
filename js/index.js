@@ -5,24 +5,24 @@ $("li").hover(function(){
 
 })
 
-    // Add smooth scrolling to all links
-    $("#pSection").click(function(event) {
-        // Make sure this.hash has a value before overriding default behavior
-        if (this.hash !== "") {
+    
+$("#pSection").click(function(event) {
+        
+    if (this.hash !== "") {
           // Prevent default anchor click behavior
-          event.preventDefault();
+        event.preventDefault();
     
           // Store hash
-          var hash = this.hash;
+        var hash = this.hash;
     
           // Using jQuery's animate() method to add smooth page scroll
           // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-          $("body").animate({
-            scrollTop: $(hash).offset().top
-          }, slow, function(){
+        $("html, body").animate({
+        scrollTop: $(hash).offset().top
+        }, slow, function(){
        
             // Add hash (#) to URL when done scrolling (default click behavior)
-            window.location.hash = hash;
-          });
-        } // End if
-      });
+         window.location.hash = hash;
+         });
+    } // End if
+});
