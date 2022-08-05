@@ -1,6 +1,6 @@
 .workGrid{
     height: auto;
-    margin-top: 100px;
+    margin-top: 115px;
     margin-bottom: 300px;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -9,7 +9,7 @@
     "image information"
     "image information"
     "button button";
-    row-gap: 15%;
+    row-gap: 10%;
 }
 
 .myWork{
