@@ -31,6 +31,7 @@
     justify-content: center;
 }
 .caseButton{
+    font-family: 'Montserrat', sans-serif;
     padding: 10px 25px;
     background-color: #B15318;
     color: white;
@@ -40,6 +41,7 @@
     border-radius: 12px;
 }
 #viewButton{
+    font-family: 'Montserrat', sans-serif;
     grid-column: 3;
     padding: 12px 70px;
     background-color: #B15318;
@@ -50,11 +52,13 @@
     border-radius: 12px;
 }
 #viewButton:hover {
+    font-family: 'Montserrat', sans-serif;
     background-color: white;
     border: 4px solid #B15318;
     color: #B15318;
 }
 .caseButton:hover{
+    font-family: 'Montserrat', sans-serif;
     background-color: white;
     border: 4px solid #B15318;
     color: #B15318;
